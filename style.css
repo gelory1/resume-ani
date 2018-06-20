@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    transition: all 0.5s;
+    box-sizing: border-box;
+}
+.token.selector,
+.token.property,
+.token.punctuation,
+.token.function{ color: rgb(222,222,222); }
+#page{
+    position: fixed;
+    right: 0;
+    top: 0;
+    overflow: auto;
+    color: black;
+    padding: 2em;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+    
+}
+@keyframes breath{
+    0%{
+      box-shadow: 0 0 10px rgba(250, 233, 1, 1)
+    }
+    100%{
+      box-shadow: 0 0 10px rgba(250, 233, 1, 0.2)
+    }
+  }
